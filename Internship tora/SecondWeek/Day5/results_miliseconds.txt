@@ -1,0 +1,13 @@
+Benchmark                                               Mode  Cnt     Score     Error   Units
+MyBenchmarkCap5.benchmarkForIterativePrimitive         thrpt    6  4551.922 ±  98.808  ops/us
+MyBenchmarkCap5.benchmarkForIterativeWrapper           thrpt    6  4500.552 ± 137.771  ops/us
+MyBenchmarkCap5.benchmarkForStreamIntStream            thrpt    6    70.021 ±   2.725  ops/us
+MyBenchmarkCap5.benchmarkForStreamIntStreamParallel    thrpt    6     0.510 ±   0.025  ops/us
+MyBenchmarkCap5.benchmarkForStreamList                 thrpt    6    34.125 ±   0.891  ops/us
+MyBenchmarkCap5.benchmarkForStreamListParallel         thrpt    6     0.464 ±   0.029  ops/us
+MyBenchmarkCap50M.benchmarkForIterativePrimitive       thrpt    6    ≈ 10⁻⁴            ops/us
+MyBenchmarkCap50M.benchmarkForIterativeWrapper         thrpt    6    ≈ 10⁻⁴            ops/us
+MyBenchmarkCap50M.benchmarkForStreamIntStream          thrpt    6    ≈ 10⁻⁴            ops/us
+MyBenchmarkCap50M.benchmarkForStreamIntStreamParallel  thrpt    6    ≈ 10⁻⁴            ops/us
+MyBenchmarkCap50M.benchmarkForStreamList               thrpt    6    ≈ 10⁻⁵            ops/us
+MyBenchmarkCap50M.benchmarkForStreamListParallel       thrpt    6    ≈ 10⁻⁵            ops/us

@@ -1,0 +1,4 @@
+rootProject.name = 'SecondWeek'
+
+include 'Day3'
+include 'Day4'

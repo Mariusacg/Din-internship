@@ -1,0 +1,6 @@
+rootProject.name = 'FirstWeek'
+
+include 'Doi'
+include 'Trei'
+include 'Patru'
+include 'Cinci'
